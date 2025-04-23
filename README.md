@@ -35,10 +35,19 @@ Shimmer: For showing loading placeholders.
 
 Responsive Design: Adjusts the layout according to the screen size.
 ### Steps to Get Started
+## Screenshots
+
+Here are a few screenshots from the app:
+
+Provided in images folder.There are some Screenshots of Homescreen,Searchscreen,darktheme,sortmodalbottomsheet,Productdetails.
+
+
 
  Clone the repository:
 
 ```bash
 git clone https://github.com/your-username/qtec-product-display-app.git
+
+
 
 
