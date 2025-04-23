@@ -1,16 +1,44 @@
-# qtec
+# QTec - Product Display App
 
-A new Flutter project.
+## Overview
 
-## Getting Started
+QTec is a Flutter-based mobile app that displays a collection of products fetched from an API. The app allows users to browse products, search for specific items, and sort them based on various criteria. It includes an intuitive and responsive UI, optimized for different screen sizes, and features smooth animations, including a custom loading indicator.
 
-This project is a starting point for a Flutter application.
+This project uses **Flutter**, **Riverpod** for state management, and **HTTP** to fetch data from an API. It also includes **Lottie** animations and **Shimmer effects** for a more engaging user experience.
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Product Display**: View products in a grid layout.
+- **Search Functionality**: Search products by title, description, brand, and category.
+- **Sorting**: Sort products by price or rating.
+- **Refresh Mechanism**: Pull to refresh the product list and load more products.
+- **Custom Animated Loading**: A unique animated loading indicator when products are being fetched.
+- **Responsive Design**: The layout adjusts for mobile, tablet, and desktop screens.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Installation
+
+### Prerequisites
+- Flutter SDK: [Install Flutter](https://flutter.dev/docs/get-started/install)
+- Dart SDK (comes with Flutter)
+- Android Studio or Visual Studio Code for development
+
+Technologies Used
+Flutter: Framework for building natively compiled applications.
+
+Riverpod: State management solution for managing app state.
+
+HTTP: For making network requests and fetching data from the API.
+
+Lottie: For animations, especially the loading indicator.
+
+Shimmer: For showing loading placeholders.
+
+Responsive Design: Adjusts the layout according to the screen size.
+### Steps to Get Started
+
+ Clone the repository:
+
+```bash
+git clone https://github.com/your-username/qtec-product-display-app.git
+
+
